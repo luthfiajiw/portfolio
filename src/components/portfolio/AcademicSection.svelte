@@ -16,11 +16,11 @@
 
 	<ol class="grid gap-7">
 		{#each items as item}
-			{@const ItemIcon = item.icon}
+			{@const logo = item.logo?.src ?? item.logo}
 			<li>
 				<article class="grid gap-3 sm:grid-cols-[3.1rem_minmax(0,1fr)]">
-					<span class="grid size-11 place-items-center rounded-lg bg-orange-100 text-orange-700 dark:bg-orange-900 dark:text-orange-100" aria-hidden="true">
-						<ItemIcon size={22} weight="duotone" />
+					<span class="grid size-12 p-1.5 place-items-center rounded-lg bg-orange-100 text-orange-700 dark:bg-orange-900 dark:text-orange-100" aria-hidden="true">
+						<img src={logo} alt={item.title} class="w-full" aria-hidden="true" />
 					</span>
 					<div>
 						<h3 class="text-base font-black">{item.title}</h3>

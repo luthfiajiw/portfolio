@@ -13,6 +13,7 @@ import {
 	TerminalWindowIcon
 } from 'phosphor-svelte';
 
+import ut from '../../assets/logo-universitas-terbuka.png'
 import react from '../../assets/react.svg'
 import go from '../../assets/go.svg'
 import hono from '../../assets/hono.svg'
@@ -180,7 +181,7 @@ export const academicItems = [
 		issuer: 'Indonesia Open University',
 		detail: 'Information Systems',
 		year: '2026',
-		icon: StudentIcon,
+		logo: ut,
 		topics: ['System Analysis', 'Business', 'Software Engineering', 'Management']
 	},
 ];

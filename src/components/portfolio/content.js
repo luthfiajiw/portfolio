@@ -34,6 +34,7 @@ import actfast2 from '../../assets/projects/actfast-2.png'
 import actfast3 from '../../assets/projects/actfast-3.png'
 import actfast4 from '../../assets/projects/actfast-4.png'
 import actfast5 from '../../assets/projects/actfast-5.png'
+import actfast6 from '../../assets/projects/actfast-6.png'
 
 import zo1 from '../../assets/projects/zo-1.png'
 import zo2 from '../../assets/projects/zo-2.png'
@@ -76,7 +77,7 @@ export const projects = [
 		techs: ["Next JS", "Hono"],
 		description: 'A Financial management and accounting application with accurate and real-time reporting.',
 		fullDescription: 'Actfast is a Financial management and accounting application with accurate and real-time reporting, it is an app rewritten using Next JS and Hono, with the goal to provide a better and modern user experience, and also improving the performance and scalability of the application.',
-		previews: [actfast1, actfast2, actfast3, actfast4, actfast5],
+		previews: [actfast1, actfast2, actfast3, actfast4, actfast5, actfast6],
 		logo: actfastLogo,
 	},
 	{

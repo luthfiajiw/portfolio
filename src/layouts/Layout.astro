@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import Analytics from '@vercel/analytics/astro';
 ---
 
 <!doctype html>
@@ -20,9 +21,6 @@ import '../styles/global.css';
 	</head>
 	<body>
 		<slot />
-		<script>
-			import { inject } from '@vercel/analytics';
-			inject();
-		</script>
+		<Analytics />
 	</body>
 </html>
